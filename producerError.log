@@ -1,0 +1,189 @@
+2019-02-20 17:22:30 [INFO] ProducerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	reconnect.backoff.ms = 20000
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [jimimaster:9092, jimidatanode001:9092]
+	ssl.keystore.type = JKS
+	sasl.mechanism = GSSAPI
+	max.block.ms = 60000
+	interceptor.classes = null
+	ssl.truststore.password = null
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	request.timeout.ms = 30000
+	acks = all
+	receive.buffer.bytes = 1024000
+	ssl.truststore.type = JKS
+	retries = 30
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	send.buffer.bytes = 1024000
+	compression.type = snappy
+	metadata.fetch.timeout.ms = 60000
+	retry.backoff.ms = 20000
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 67108864
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	batch.size = 65136
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	max.request.size = 1048576
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	linger.ms = 5
+
+2019-02-20 17:22:30 [DEBUG] Added sensor with name bufferpool-wait-time
+2019-02-20 17:22:30 [DEBUG] Added sensor with name buffer-exhausted-records
+2019-02-20 17:22:30 [DEBUG] Updated cluster metadata version 1 to Cluster(nodes = [jimidatanode001:9092 (id: -2 rack: null), jimimaster:9092 (id: -1 rack: null)], partitions = [])
+2019-02-20 17:22:30 [DEBUG] Added sensor with name connections-closed:
+2019-02-20 17:22:30 [DEBUG] Added sensor with name connections-created:
+2019-02-20 17:22:30 [DEBUG] Added sensor with name bytes-sent-received:
+2019-02-20 17:22:30 [DEBUG] Added sensor with name bytes-sent:
+2019-02-20 17:22:30 [DEBUG] Added sensor with name bytes-received:
+2019-02-20 17:22:30 [DEBUG] Added sensor with name select-time:
+2019-02-20 17:22:30 [DEBUG] Added sensor with name io-time:
+2019-02-20 17:22:30 [DEBUG] Added sensor with name batch-size
+2019-02-20 17:22:30 [DEBUG] Added sensor with name compression-rate
+2019-02-20 17:22:30 [DEBUG] Added sensor with name queue-time
+2019-02-20 17:22:30 [DEBUG] Added sensor with name request-time
+2019-02-20 17:22:30 [DEBUG] Added sensor with name produce-throttle-time
+2019-02-20 17:22:30 [DEBUG] Added sensor with name records-per-request
+2019-02-20 17:22:30 [DEBUG] Added sensor with name record-retries
+2019-02-20 17:22:30 [DEBUG] Added sensor with name errors
+2019-02-20 17:22:30 [DEBUG] Added sensor with name record-size-max
+2019-02-20 17:22:30 [DEBUG] Starting Kafka producer I/O thread.
+2019-02-20 17:22:30 [INFO] ProducerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	reconnect.backoff.ms = 20000
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [jimimaster:9092, jimidatanode001:9092]
+	ssl.keystore.type = JKS
+	sasl.mechanism = GSSAPI
+	max.block.ms = 60000
+	interceptor.classes = null
+	ssl.truststore.password = null
+	client.id = producer-1
+	ssl.endpoint.identification.algorithm = null
+	request.timeout.ms = 30000
+	acks = all
+	receive.buffer.bytes = 1024000
+	ssl.truststore.type = JKS
+	retries = 30
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	send.buffer.bytes = 1024000
+	compression.type = snappy
+	metadata.fetch.timeout.ms = 60000
+	retry.backoff.ms = 20000
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 67108864
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	batch.size = 65136
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	max.request.size = 1048576
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	linger.ms = 5
+
+2019-02-20 17:22:30 [INFO] Kafka version : 0.10.0.1
+2019-02-20 17:22:30 [INFO] Kafka commitId : a7a17cdec9eaa6c5
+2019-02-20 17:22:30 [DEBUG] Kafka producer started
+2019-02-20 17:22:30 [INFO] alarm -info- count: 0
+2019-02-20 17:22:50 [DEBUG] Initialize connection to node -2 for sending metadata request
+2019-02-20 17:22:50 [DEBUG] Initiating connection to node -2 at jimidatanode001:9092.
+2019-02-20 17:22:50 [DEBUG] Initialize connection to node -1 for sending metadata request
+2019-02-20 17:22:50 [DEBUG] Initiating connection to node -1 at jimimaster:9092.
+2019-02-20 17:22:50 [DEBUG] Added sensor with name node--2.bytes-sent
+2019-02-20 17:22:50 [DEBUG] Added sensor with name node--2.bytes-received
+2019-02-20 17:22:50 [DEBUG] Added sensor with name node--2.latency
+2019-02-20 17:22:50 [DEBUG] Completed connection to node -2
+2019-02-20 17:22:53 [DEBUG] Added sensor with name node--1.bytes-sent
+2019-02-20 17:22:53 [DEBUG] Added sensor with name node--1.bytes-received
+2019-02-20 17:22:53 [DEBUG] Added sensor with name node--1.latency
+2019-02-20 17:22:53 [DEBUG] Completed connection to node -1
+2019-02-20 17:23:10 [DEBUG] Sending metadata request {topics=[report.alarm]} to node -2
+2019-02-20 17:23:10 [DEBUG] Updated cluster metadata version 2 to Cluster(nodes = [jimimaster:9092 (id: 74 rack: null), jimidatanode000:9092 (id: 73 rack: null), jimidatanode001:9092 (id: 72 rack: null)], partitions = [Partition(topic = report.alarm, partition = 3, leader = 73, replicas = [73,72,], isr = [72,73,], Partition(topic = report.alarm, partition = 4, leader = 74, replicas = [74,73,], isr = [74,73,], Partition(topic = report.alarm, partition = 1, leader = 74, replicas = [74,72,], isr = [72,74,], Partition(topic = report.alarm, partition = 2, leader = 72, replicas = [72,73,], isr = [72,73,], Partition(topic = report.alarm, partition = 7, leader = 74, replicas = [74,72,], isr = [72,74,], Partition(topic = report.alarm, partition = 8, leader = 72, replicas = [72,73,], isr = [72,73,], Partition(topic = report.alarm, partition = 5, leader = 72, replicas = [72,74,], isr = [72,74,], Partition(topic = report.alarm, partition = 6, leader = 73, replicas = [73,74,], isr = [74,73,], Partition(topic = report.alarm, partition = 9, leader = 73, replicas = [73,72,], isr = [72,73,], Partition(topic = report.alarm, partition = 0, leader = 73, replicas = [73,74,], isr = [74,73,]])
+2019-02-20 17:23:10 [DEBUG] Initiating connection to node 74 at jimimaster:9092.
+2019-02-20 17:23:10 [DEBUG] Initiating connection to node 73 at jimidatanode000:9092.
+2019-02-20 17:23:10 [DEBUG] Added sensor with name node-74.bytes-sent
+2019-02-20 17:23:10 [DEBUG] Added sensor with name node-74.bytes-received
+2019-02-20 17:23:10 [DEBUG] Added sensor with name node-74.latency
+2019-02-20 17:23:10 [DEBUG] Completed connection to node 74
+2019-02-20 17:23:10 [DEBUG] Initiating connection to node 72 at jimidatanode001:9092.
+2019-02-20 17:23:10 [DEBUG] Added sensor with name topic.report.alarm.records-per-batch
+2019-02-20 17:23:10 [DEBUG] Added sensor with name topic.report.alarm.bytes
+2019-02-20 17:23:10 [DEBUG] Added sensor with name topic.report.alarm.compression-rate
+2019-02-20 17:23:10 [DEBUG] Added sensor with name topic.report.alarm.record-retries
+2019-02-20 17:23:10 [DEBUG] Added sensor with name topic.report.alarm.record-errors
+2019-02-20 17:23:10 [DEBUG] Added sensor with name node-73.bytes-sent
+2019-02-20 17:23:10 [DEBUG] Added sensor with name node-73.bytes-received
+2019-02-20 17:23:10 [DEBUG] Added sensor with name node-73.latency
+2019-02-20 17:23:10 [DEBUG] Completed connection to node 73
+2019-02-20 17:23:10 [DEBUG] Added sensor with name node-72.bytes-sent
+2019-02-20 17:23:10 [DEBUG] Added sensor with name node-72.bytes-received
+2019-02-20 17:23:10 [DEBUG] Added sensor with name node-72.latency
+2019-02-20 17:23:10 [DEBUG] Completed connection to node 72
+2019-02-20 17:23:30 [INFO] alarm -info- count: 1000
+2019-02-20 17:23:37 [DEBUG] Connection with jimidatanode001/120.77.251.74 disconnected
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.read(PlaintextTransportLayer.java:110)
+	at org.apache.kafka.common.network.NetworkReceive.readFromReadableChannel(NetworkReceive.java:81)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:71)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:154)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:135)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:323)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-20 17:23:37 [DEBUG] Node 72 disconnected.
+2019-02-20 17:23:37 [WARN] Got error produce response with correlation id 1880 on topic-partition report.alarm-5, retrying (29 attempts left). Error: NETWORK_EXCEPTION
+2019-02-20 17:23:37 [WARN] Got error produce response with correlation id 1878 on topic-partition report.alarm-8, retrying (29 attempts left). Error: NETWORK_EXCEPTION
+2019-02-20 17:23:37 [WARN] Got error produce response with correlation id 1878 on topic-partition report.alarm-5, retrying (29 attempts left). Error: NETWORK_EXCEPTION
+2019-02-20 17:23:37 [WARN] Got error produce response with correlation id 1878 on topic-partition report.alarm-2, retrying (29 attempts left). Error: NETWORK_EXCEPTION
+2019-02-20 17:23:37 [WARN] Got error produce response with correlation id 1874 on topic-partition report.alarm-5, retrying (29 attempts left). Error: NETWORK_EXCEPTION
+2019-02-20 17:23:37 [WARN] Got error produce response with correlation id 1872 on topic-partition report.alarm-5, retrying (29 attempts left). Error: NETWORK_EXCEPTION
+2019-02-20 17:23:37 [WARN] Got error produce response with correlation id 1870 on topic-partition report.alarm-8, retrying (29 attempts left). Error: NETWORK_EXCEPTION
+2019-02-20 17:23:37 [WARN] Got error produce response with correlation id 1870 on topic-partition report.alarm-5, retrying (29 attempts left). Error: NETWORK_EXCEPTION
+2019-02-20 17:23:37 [WARN] Got error produce response with correlation id 1870 on topic-partition report.alarm-2, retrying (29 attempts left). Error: NETWORK_EXCEPTION

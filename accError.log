@@ -1,0 +1,553 @@
+2020-03-11 09:52:08 [DEBUG] Disabling exponential reconnect backoff because reconnect.backoff.ms is set, but reconnect.backoff.max.ms is not.
+2020-03-11 09:52:08 [INFO] ProducerConfig values: 
+	acks = all
+	batch.size = 65136
+	bootstrap.servers = [master126:9092]
+	buffer.memory = 67108864
+	client.id = 
+	compression.type = snappy
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 50
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 20000
+	reconnect.backoff.ms = 20000
+	request.timeout.ms = 60000
+	retries = 3
+	retry.backoff.ms = 20000
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2020-03-11 09:52:08 [DEBUG] Disabling exponential reconnect backoff because reconnect.backoff.ms is set, but reconnect.backoff.max.ms is not.
+2020-03-11 09:52:08 [DEBUG] Added sensor with name bufferpool-wait-time
+2020-03-11 09:52:08 [DEBUG] Added sensor with name buffer-exhausted-records
+2020-03-11 09:52:08 [DEBUG] Updated cluster metadata version 1 to Cluster(id = null, nodes = [master126:9092 (id: -1 rack: null)], partitions = [])
+2020-03-11 09:52:08 [DEBUG] Added sensor with name produce-throttle-time
+2020-03-11 09:52:08 [DEBUG] Added sensor with name connections-closed:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name connections-created:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name successful-authentication:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name failed-authentication:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name bytes-sent-received:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name bytes-sent:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name bytes-received:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name select-time:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name io-time:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name batch-size
+2020-03-11 09:52:08 [DEBUG] Added sensor with name compression-rate
+2020-03-11 09:52:08 [DEBUG] Added sensor with name queue-time
+2020-03-11 09:52:08 [DEBUG] Added sensor with name request-time
+2020-03-11 09:52:08 [DEBUG] Added sensor with name records-per-request
+2020-03-11 09:52:08 [DEBUG] Added sensor with name record-retries
+2020-03-11 09:52:08 [DEBUG] Added sensor with name errors
+2020-03-11 09:52:08 [DEBUG] Added sensor with name record-size
+2020-03-11 09:52:08 [DEBUG] Added sensor with name batch-split-rate
+2020-03-11 09:52:08 [DEBUG] [Producer clientId=producer-1] Starting Kafka producer I/O thread.
+2020-03-11 09:52:08 [INFO] Kafka version : 1.0.1
+2020-03-11 09:52:08 [INFO] Kafka commitId : c0518aa65f25317e
+2020-03-11 09:52:08 [DEBUG] [Producer clientId=producer-1] Kafka producer started
+2020-03-11 09:52:08 [INFO] ConsumerConfig values: 
+	auto.commit.interval.ms = 1000
+	auto.offset.reset = latest
+	bootstrap.servers = [120.77.251.74:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = analogdata
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2020-03-11 09:52:08 [DEBUG] [Consumer clientId=consumer-1, groupId=analogdata] Initializing the Kafka consumer
+2020-03-11 09:52:08 [INFO] ConsumerConfig values: 
+	auto.commit.interval.ms = 1000
+	auto.offset.reset = latest
+	bootstrap.servers = [120.77.251.74:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = analogdata
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2020-03-11 09:52:08 [DEBUG] [Consumer clientId=consumer-2, groupId=analogdata] Initializing the Kafka consumer
+2020-03-11 09:52:08 [INFO] ConsumerConfig values: 
+	auto.commit.interval.ms = 1000
+	auto.offset.reset = latest
+	bootstrap.servers = [120.77.251.74:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = analogdata
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2020-03-11 09:52:08 [DEBUG] [Consumer clientId=consumer-3, groupId=analogdata] Initializing the Kafka consumer
+2020-03-11 09:52:08 [INFO] ConsumerConfig values: 
+	auto.commit.interval.ms = 1000
+	auto.offset.reset = latest
+	bootstrap.servers = [120.77.251.74:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = analogdata
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2020-03-11 09:52:08 [DEBUG] [Consumer clientId=consumer-4, groupId=analogdata] Initializing the Kafka consumer
+2020-03-11 09:52:08 [DEBUG] Updated cluster metadata version 1 to Cluster(id = null, nodes = [120.77.251.74:9092 (id: -1 rack: null)], partitions = [])
+2020-03-11 09:52:08 [DEBUG] Updated cluster metadata version 1 to Cluster(id = null, nodes = [120.77.251.74:9092 (id: -1 rack: null)], partitions = [])
+2020-03-11 09:52:08 [DEBUG] Updated cluster metadata version 1 to Cluster(id = null, nodes = [120.77.251.74:9092 (id: -1 rack: null)], partitions = [])
+2020-03-11 09:52:08 [DEBUG] Updated cluster metadata version 1 to Cluster(id = null, nodes = [120.77.251.74:9092 (id: -1 rack: null)], partitions = [])
+2020-03-11 09:52:08 [DEBUG] Added sensor with name fetch-throttle-time
+2020-03-11 09:52:08 [DEBUG] Added sensor with name fetch-throttle-time
+2020-03-11 09:52:08 [DEBUG] Added sensor with name fetch-throttle-time
+2020-03-11 09:52:08 [DEBUG] Added sensor with name connections-closed:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name fetch-throttle-time
+2020-03-11 09:52:08 [DEBUG] Added sensor with name connections-closed:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name connections-created:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name connections-closed:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name successful-authentication:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name connections-created:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name connections-closed:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name failed-authentication:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name successful-authentication:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name bytes-sent-received:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name failed-authentication:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name bytes-sent-received:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name bytes-sent:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name connections-created:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name bytes-received:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name select-time:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name bytes-sent:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name connections-created:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name io-time:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name successful-authentication:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name successful-authentication:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name failed-authentication:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name failed-authentication:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name bytes-sent-received:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name bytes-received:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name bytes-sent-received:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name bytes-sent:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name bytes-sent:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name bytes-received:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name select-time:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name select-time:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name bytes-received:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name io-time:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name select-time:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name io-time:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name io-time:
+2020-03-11 09:52:08 [DEBUG] Added sensor with name heartbeat-latency
+2020-03-11 09:52:08 [DEBUG] Added sensor with name heartbeat-latency
+2020-03-11 09:52:08 [DEBUG] Added sensor with name heartbeat-latency
+2020-03-11 09:52:08 [DEBUG] Added sensor with name heartbeat-latency
+2020-03-11 09:52:08 [DEBUG] Added sensor with name join-latency
+2020-03-11 09:52:08 [DEBUG] Added sensor with name join-latency
+2020-03-11 09:52:08 [DEBUG] Added sensor with name join-latency
+2020-03-11 09:52:08 [DEBUG] Added sensor with name sync-latency
+2020-03-11 09:52:08 [DEBUG] Added sensor with name join-latency
+2020-03-11 09:52:08 [DEBUG] Added sensor with name sync-latency
+2020-03-11 09:52:08 [DEBUG] Added sensor with name sync-latency
+2020-03-11 09:52:08 [DEBUG] Added sensor with name sync-latency
+2020-03-11 09:52:08 [DEBUG] Added sensor with name commit-latency
+2020-03-11 09:52:08 [DEBUG] Added sensor with name commit-latency
+2020-03-11 09:52:08 [DEBUG] Added sensor with name commit-latency
+2020-03-11 09:52:08 [DEBUG] Added sensor with name commit-latency
+2020-03-11 09:52:08 [DEBUG] Added sensor with name bytes-fetched
+2020-03-11 09:52:08 [DEBUG] Added sensor with name bytes-fetched
+2020-03-11 09:52:08 [DEBUG] Added sensor with name bytes-fetched
+2020-03-11 09:52:08 [DEBUG] Added sensor with name bytes-fetched
+2020-03-11 09:52:08 [DEBUG] Added sensor with name records-fetched
+2020-03-11 09:52:08 [DEBUG] Added sensor with name records-fetched
+2020-03-11 09:52:08 [DEBUG] Added sensor with name records-fetched
+2020-03-11 09:52:08 [DEBUG] Added sensor with name records-fetched
+2020-03-11 09:52:08 [DEBUG] Added sensor with name fetch-latency
+2020-03-11 09:52:08 [DEBUG] Added sensor with name fetch-latency
+2020-03-11 09:52:08 [DEBUG] Added sensor with name records-lag
+2020-03-11 09:52:08 [DEBUG] Added sensor with name fetch-latency
+2020-03-11 09:52:08 [INFO] Kafka version : 1.0.1
+2020-03-11 09:52:08 [INFO] Kafka commitId : c0518aa65f25317e
+2020-03-11 09:52:08 [DEBUG] Added sensor with name records-lag
+2020-03-11 09:52:08 [DEBUG] [Consumer clientId=consumer-4, groupId=analogdata] Kafka consumer initialized
+2020-03-11 09:52:08 [DEBUG] Added sensor with name records-lag
+2020-03-11 09:52:08 [INFO] Kafka version : 1.0.1
+2020-03-11 09:52:08 [INFO] Kafka commitId : c0518aa65f25317e
+2020-03-11 09:52:08 [DEBUG] [Consumer clientId=consumer-4, groupId=analogdata] Subscribed to topic(s): topic.offLine.stop
+2020-03-11 09:52:08 [INFO] Kafka version : 1.0.1
+2020-03-11 09:52:08 [INFO] Kafka commitId : c0518aa65f25317e
+2020-03-11 09:52:08 [DEBUG] Added sensor with name fetch-latency
+2020-03-11 09:52:08 [DEBUG] [Consumer clientId=consumer-4, groupId=analogdata] Sending FindCoordinator request to broker 120.77.251.74:9092 (id: -1 rack: null)
+2020-03-11 09:52:08 [DEBUG] [Consumer clientId=consumer-2, groupId=analogdata] Kafka consumer initialized
+2020-03-11 09:52:08 [DEBUG] [Consumer clientId=consumer-2, groupId=analogdata] Subscribed to topic(s): topic.offLine.disSum
+2020-03-11 09:52:08 [DEBUG] [Consumer clientId=consumer-2, groupId=analogdata] Sending FindCoordinator request to broker 120.77.251.74:9092 (id: -1 rack: null)
+2020-03-11 09:52:08 [DEBUG] [Consumer clientId=consumer-1, groupId=analogdata] Kafka consumer initialized
+2020-03-11 09:52:08 [DEBUG] [Consumer clientId=consumer-1, groupId=analogdata] Subscribed to topic(s): topic.offLine.alarm
+2020-03-11 09:52:08 [DEBUG] [Consumer clientId=consumer-1, groupId=analogdata] Sending FindCoordinator request to broker 120.77.251.74:9092 (id: -1 rack: null)
+2020-03-11 09:52:08 [DEBUG] Added sensor with name records-lag
+2020-03-11 09:52:08 [INFO] Kafka version : 1.0.1
+2020-03-11 09:52:08 [INFO] Kafka commitId : c0518aa65f25317e
+2020-03-11 09:52:08 [DEBUG] [Consumer clientId=consumer-3, groupId=analogdata] Kafka consumer initialized
+2020-03-11 09:52:08 [DEBUG] [Consumer clientId=consumer-3, groupId=analogdata] Subscribed to topic(s): topic.offLine.track
+2020-03-11 09:52:08 [DEBUG] [Consumer clientId=consumer-3, groupId=analogdata] Sending FindCoordinator request to broker 120.77.251.74:9092 (id: -1 rack: null)
+2020-03-11 09:52:08 [DEBUG] [Consumer clientId=consumer-4, groupId=analogdata] Initiating connection to node 120.77.251.74:9092 (id: -1 rack: null)
+2020-03-11 09:52:08 [DEBUG] [Consumer clientId=consumer-1, groupId=analogdata] Initiating connection to node 120.77.251.74:9092 (id: -1 rack: null)
+2020-03-11 09:52:08 [DEBUG] [Consumer clientId=consumer-2, groupId=analogdata] Initiating connection to node 120.77.251.74:9092 (id: -1 rack: null)
+2020-03-11 09:52:08 [DEBUG] [Consumer clientId=consumer-3, groupId=analogdata] Initiating connection to node 120.77.251.74:9092 (id: -1 rack: null)
+2020-03-11 09:52:29 [DEBUG] Added sensor with name node--1.bytes-sent
+2020-03-11 09:52:29 [DEBUG] Added sensor with name node--1.bytes-received
+2020-03-11 09:52:29 [DEBUG] Added sensor with name node--1.latency
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-2, groupId=analogdata] Connection with /120.77.251.74 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:50)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:106)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:458)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:412)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:460)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:238)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:214)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:190)
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady(AbstractCoordinator.java:219)
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady(AbstractCoordinator.java:205)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.poll(ConsumerCoordinator.java:284)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.pollOnce(KafkaConsumer.java:1146)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.poll(KafkaConsumer.java:1111)
+	at com.jimi.consumer.ConsummerData$4.run(ConsummerData.java:99)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-03-11 09:52:29 [DEBUG] Added sensor with name node--1.bytes-sent
+2020-03-11 09:52:29 [DEBUG] Added sensor with name node--1.bytes-sent
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-2, groupId=analogdata] Node -1 disconnected.
+2020-03-11 09:52:29 [DEBUG] Added sensor with name node--1.bytes-received
+2020-03-11 09:52:29 [DEBUG] Added sensor with name node--1.bytes-received
+2020-03-11 09:52:29 [WARN] [Consumer clientId=consumer-2, groupId=analogdata] Connection to node -1 could not be established. Broker may not be available.
+2020-03-11 09:52:29 [DEBUG] Added sensor with name node--1.latency
+2020-03-11 09:52:29 [DEBUG] Added sensor with name node--1.latency
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-4, groupId=analogdata] Connection with /120.77.251.74 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:50)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:106)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:458)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:412)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:460)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:238)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:214)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:190)
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady(AbstractCoordinator.java:219)
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady(AbstractCoordinator.java:205)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.poll(ConsumerCoordinator.java:284)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.pollOnce(KafkaConsumer.java:1146)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.poll(KafkaConsumer.java:1111)
+	at com.jimi.consumer.ConsummerData$2.run(ConsummerData.java:61)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-4, groupId=analogdata] Node -1 disconnected.
+2020-03-11 09:52:29 [WARN] [Consumer clientId=consumer-4, groupId=analogdata] Connection to node -1 could not be established. Broker may not be available.
+2020-03-11 09:52:29 [DEBUG] Added sensor with name node--1.bytes-sent
+2020-03-11 09:52:29 [DEBUG] Added sensor with name node--1.bytes-received
+2020-03-11 09:52:29 [DEBUG] Added sensor with name node--1.latency
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-1, groupId=analogdata] Connection with /120.77.251.74 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:50)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:106)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:458)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:412)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:460)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:238)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:214)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:190)
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady(AbstractCoordinator.java:219)
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady(AbstractCoordinator.java:205)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.poll(ConsumerCoordinator.java:284)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.pollOnce(KafkaConsumer.java:1146)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.poll(KafkaConsumer.java:1111)
+	at com.jimi.consumer.ConsummerData$1.run(ConsummerData.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-3, groupId=analogdata] Connection with /120.77.251.74 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:50)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:106)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:458)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:412)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:460)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:238)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:214)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:190)
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady(AbstractCoordinator.java:219)
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady(AbstractCoordinator.java:205)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.poll(ConsumerCoordinator.java:284)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.pollOnce(KafkaConsumer.java:1146)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.poll(KafkaConsumer.java:1111)
+	at com.jimi.consumer.ConsummerData$3.run(ConsummerData.java:80)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-2, groupId=analogdata] Cancelled FIND_COORDINATOR request RequestHeader(apiKey=FIND_COORDINATOR, apiVersion=1, clientId=consumer-2, correlationId=0) with correlation id 0 due to node -1 being disconnected
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-4, groupId=analogdata] Cancelled FIND_COORDINATOR request RequestHeader(apiKey=FIND_COORDINATOR, apiVersion=1, clientId=consumer-4, correlationId=0) with correlation id 0 due to node -1 being disconnected
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-1, groupId=analogdata] Node -1 disconnected.
+2020-03-11 09:52:29 [WARN] [Consumer clientId=consumer-1, groupId=analogdata] Connection to node -1 could not be established. Broker may not be available.
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-3, groupId=analogdata] Node -1 disconnected.
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-1, groupId=analogdata] Cancelled FIND_COORDINATOR request RequestHeader(apiKey=FIND_COORDINATOR, apiVersion=1, clientId=consumer-1, correlationId=0) with correlation id 0 due to node -1 being disconnected
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-1, groupId=analogdata] Coordinator discovery failed, refreshing metadata
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-2, groupId=analogdata] Coordinator discovery failed, refreshing metadata
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-4, groupId=analogdata] Coordinator discovery failed, refreshing metadata
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-2, groupId=analogdata] Give up sending metadata request since no node is available
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-1, groupId=analogdata] Give up sending metadata request since no node is available
+2020-03-11 09:52:29 [WARN] [Consumer clientId=consumer-3, groupId=analogdata] Connection to node -1 could not be established. Broker may not be available.
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-3, groupId=analogdata] Cancelled FIND_COORDINATOR request RequestHeader(apiKey=FIND_COORDINATOR, apiVersion=1, clientId=consumer-3, correlationId=0) with correlation id 0 due to node -1 being disconnected
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-3, groupId=analogdata] Coordinator discovery failed, refreshing metadata
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-3, groupId=analogdata] Give up sending metadata request since no node is available
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-4, groupId=analogdata] Give up sending metadata request since no node is available
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-3, groupId=analogdata] Give up sending metadata request since no node is available
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-4, groupId=analogdata] Give up sending metadata request since no node is available
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-1, groupId=analogdata] Give up sending metadata request since no node is available
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-2, groupId=analogdata] Give up sending metadata request since no node is available
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-3, groupId=analogdata] Give up sending metadata request since no node is available
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-4, groupId=analogdata] Initialize connection to node 120.77.251.74:9092 (id: -1 rack: null) for sending metadata request
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-4, groupId=analogdata] Initiating connection to node 120.77.251.74:9092 (id: -1 rack: null)
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-1, groupId=analogdata] Give up sending metadata request since no node is available
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-2, groupId=analogdata] Initialize connection to node 120.77.251.74:9092 (id: -1 rack: null) for sending metadata request
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-2, groupId=analogdata] Initiating connection to node 120.77.251.74:9092 (id: -1 rack: null)
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-1, groupId=analogdata] Initialize connection to node 120.77.251.74:9092 (id: -1 rack: null) for sending metadata request
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-1, groupId=analogdata] Initiating connection to node 120.77.251.74:9092 (id: -1 rack: null)
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-3, groupId=analogdata] Initialize connection to node 120.77.251.74:9092 (id: -1 rack: null) for sending metadata request
+2020-03-11 09:52:29 [DEBUG] [Consumer clientId=consumer-3, groupId=analogdata] Initiating connection to node 120.77.251.74:9092 (id: -1 rack: null)
